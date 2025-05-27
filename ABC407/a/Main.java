@@ -10,6 +10,5 @@ public class Main {
         double div = (double)A / B;
         int ans = (int)Math.round(div);
         System.out.println(ans);
-        
     }
 }
