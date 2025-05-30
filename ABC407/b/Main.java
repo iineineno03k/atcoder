@@ -12,6 +12,7 @@ public class Main {
             for (int b = 1; b <= 6; b++) {
                 if (a + b >= X || Math.abs(a - b) >= Y) {
                     count++;
+                    
                 }
             }
         }
