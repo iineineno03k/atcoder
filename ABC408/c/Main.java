@@ -26,7 +26,6 @@ public class Main {
             count += diff[i];
             minGuards = Math.min(minGuards, count);
         }
-
         System.out.println(minGuards);
         sc.close();
     }
