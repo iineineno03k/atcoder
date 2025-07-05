@@ -6,11 +6,20 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // 入力処理
+        int N = sc.nextInt();
+        int M = sc.nextInt();
 
-        // 処理・計算
+        int sum = 0;
+        for (int i = 0; i < N; i++) {
+            int A = sc.nextInt();
+            sum += A;
+        }
 
-        // 出力
+        if (sum <= M) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
 
         sc.close();
     }
